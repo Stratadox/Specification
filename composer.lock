@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2c102e92103b6d0f3727d2beb7fe44ba",
-    "content-hash": "1d72229648899e556da3080736d8e966",
+    "hash": "6eaa0ffdca7f5648faffb195637c4a5c",
+    "content-hash": "94b887a1d01ed0ffa5076142f2ea262f",
     "packages": [
         {
             "name": "stratadox/specification-interfaces",
@@ -2184,7 +2184,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.0.8"
+        "php": ">=7.0"
     },
     "platform-dev": []
 }

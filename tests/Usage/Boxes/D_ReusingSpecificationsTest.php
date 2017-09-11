@@ -11,7 +11,7 @@ use Stratadox\Specification\Test\Usage\Boxes\Specification\Height\AreLower;
 use Stratadox\Specification\Test\Usage\Boxes\Specification\Length\AreLonger;
 use Stratadox\Specification\Test\Usage\Boxes\Specification\Length\AreShorter;
 use Stratadox\Specification\Test\Usage\Boxes\Specification\Weight\AreHeavier;
-use Stratadox\Specification\Test\Usage\Boxes\Specification\Weight\AreLighterThan;
+use Stratadox\Specification\Test\Usage\Boxes\Specification\Weight\AreLighter;
 use Stratadox\Specification\Test\Usage\Boxes\Specification\Width\AreNarrower;
 use Stratadox\Specification\Test\Usage\Boxes\Specification\Width\AreWider;
 
@@ -33,7 +33,7 @@ class D_ReusingSpecificationsTest extends TestCase
                 Box::ofSizeAndWeight(5, 7, 8, 90, 'white'),
                 Box::ofSizeAndWeight(3, 2, 5, 40, 'brown')
             ),
-            $allBoxes->that(AreLighterThan::than(100)->and($areNotTooLarge))
+            $allBoxes->that(AreLighter::than(100)->and($areNotTooLarge))
         );
     }
 

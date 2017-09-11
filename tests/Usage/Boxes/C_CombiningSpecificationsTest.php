@@ -7,7 +7,7 @@ use Stratadox\Specification\Test\Usage\Boxes\Model\Box;
 use Stratadox\Specification\Test\Usage\Boxes\Model\CollectionOfBoxes;
 use Stratadox\Specification\Test\Usage\Boxes\Specification\Colour\AreColoured;
 use Stratadox\Specification\Test\Usage\Boxes\Specification\Weight\AreHeavier;
-use Stratadox\Specification\Test\Usage\Boxes\Specification\Weight\AreLighterThan;
+use Stratadox\Specification\Test\Usage\Boxes\Specification\Weight\AreLighter;
 
 class C_CombiningSpecificationsTest extends TestCase
 {
@@ -27,7 +27,7 @@ class C_CombiningSpecificationsTest extends TestCase
                 Box::ofWeight(3),
                 Box::ofWeight(5)
             ),
-            $allBoxes->that(AreHeavier::than(2)->and(AreLighterThan::than(10)))
+            $allBoxes->that(AreHeavier::than(2)->and(AreLighter::than(10)))
         );
     }
 

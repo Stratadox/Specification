@@ -4,7 +4,7 @@ namespace Stratadox\Specification\Test\Usage\Boxes\Specification\Weight;
 
 use Stratadox\Specification\Test\Usage\Boxes\Model\Box;
 
-class AreLighterThan extends WeightSpecification
+class AreLighter extends WeightSpecification
 {
     public function isSatisfiedBy($object) : bool
     {

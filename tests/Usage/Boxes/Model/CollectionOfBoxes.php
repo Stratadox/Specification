@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types = 1);
+
 namespace Stratadox\Specification\Test\Usage\Boxes\Model;
 
 use Stratadox\Specification\Contract\Satisfiable;

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types = 1);
+
 namespace Stratadox\Specification\Unary;
 
 class NotSpecification extends UnarySpecification

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types = 1);
+
 namespace Stratadox\Specification\Binary;
 
 use Stratadox\Specification\Specifying;

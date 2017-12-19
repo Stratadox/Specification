@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types = 1);
+
 namespace Stratadox\Specification\Test\Satisfaction\Binary;
 
 use PHPUnit\Framework\TestCase;

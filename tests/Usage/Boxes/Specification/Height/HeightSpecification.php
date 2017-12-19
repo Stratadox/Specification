@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types = 1);
+
 namespace Stratadox\Specification\Test\Usage\Boxes\Specification\Height;
 
 use Stratadox\Specification\Contract\Specifies;

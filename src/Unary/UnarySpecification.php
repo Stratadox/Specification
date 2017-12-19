@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types = 1);
+
 namespace Stratadox\Specification\Unary;
 
 use Stratadox\Specification\Specifying;

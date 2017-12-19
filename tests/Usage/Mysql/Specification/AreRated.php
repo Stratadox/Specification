@@ -18,7 +18,7 @@ class AreRated extends Specification implements ParsesToMysql
         $this->rating = $rating;
     }
 
-    public static function as(string $rating) : Specifies
+    public static function as(int $rating) : Specifies
     {
         return new static($rating);
     }

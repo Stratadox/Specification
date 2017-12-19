@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6eaa0ffdca7f5648faffb195637c4a5c",
-    "content-hash": "94b887a1d01ed0ffa5076142f2ea262f",
+    "hash": "a8f6163a20e79ce02a6b1df19af8d649",
+    "content-hash": "9ab42418589d1e53ba293181b191bce6",
     "packages": [
         {
             "name": "stratadox/specification-interfaces",
@@ -1011,6 +1011,51 @@
                 "psr-3"
             ],
             "time": "2016-10-10 12:19:37"
+        },
+        {
+            "name": "rpkamp/fancy-testdox-printer",
+            "version": "0.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rpkamp/fancy-testdox-printer.git",
+                "reference": "6c1f17e2a17091fe6adf7f0594b32632012d414d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rpkamp/fancy-testdox-printer/zipball/6c1f17e2a17091fe6adf7f0594b32632012d414d",
+                "reference": "6c1f17e2a17091fe6adf7f0594b32632012d414d",
+                "shasum": ""
+            },
+            "require": {
+                "phpunit/phpunit": "^6.0"
+            },
+            "require-dev": {
+                "squizlabs/php_codesniffer": "^3.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "rpkamp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Remon van de Kamp",
+                    "email": "rpkamp@gmail.com",
+                    "homepage": "https://www.rpkamp.com/"
+                }
+            ],
+            "description": "A fancy testdox printer for PHPUnit",
+            "keywords": [
+                "phpunit",
+                "printer",
+                "testdox"
+            ],
+            "time": "2017-12-17 22:31:54"
         },
         {
             "name": "satooshi/php-coveralls",

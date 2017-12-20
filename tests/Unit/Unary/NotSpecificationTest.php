@@ -9,6 +9,10 @@ use Stratadox\Specification\Test\Unit\Passed;
 use Stratadox\Specification\Test\Unit\Failed;
 use Stratadox\Specification\Unary\NotSpecification;
 
+/**
+ * @covers \Stratadox\Specification\Unary\NotSpecification
+ * @covers \Stratadox\Specification\Unary\UnarySpecification
+ */
 class NotSpecificationTest extends TestCase
 {
     /** @test */

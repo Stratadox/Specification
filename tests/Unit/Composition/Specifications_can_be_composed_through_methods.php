@@ -11,6 +11,10 @@ use Stratadox\Specification\Binary\XorSpecification;
 use Stratadox\Specification\Test\Unit\Name;
 use Stratadox\Specification\Unary\NotSpecification;
 
+/**
+ * @covers \Stratadox\Specification\Specifying
+ * @covers \Stratadox\Specification\Specification
+ */
 class Specifications_can_be_composed_through_methods extends TestCase
 {
     /** @test */

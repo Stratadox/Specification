@@ -36,4 +36,5 @@ $this->assertEquals(
     ),
     $allBoxes->that($weighBetween2and10->or(AreHeavier::than(20)))
 );
+
 ```

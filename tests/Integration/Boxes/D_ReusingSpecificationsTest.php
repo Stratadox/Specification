@@ -17,6 +17,9 @@ use Stratadox\Specification\Test\Integration\Boxes\Specification\Weight\AreLight
 use Stratadox\Specification\Test\Integration\Boxes\Specification\Width\AreNarrower;
 use Stratadox\Specification\Test\Integration\Boxes\Specification\Width\AreWider;
 
+/**
+ * @coversNothing
+ */
 class D_ReusingSpecificationsTest extends TestCase
 {
     /**

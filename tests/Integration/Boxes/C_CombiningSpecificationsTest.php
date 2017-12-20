@@ -11,6 +11,9 @@ use Stratadox\Specification\Test\Integration\Boxes\Specification\Colour\AreColou
 use Stratadox\Specification\Test\Integration\Boxes\Specification\Weight\AreHeavier;
 use Stratadox\Specification\Test\Integration\Boxes\Specification\Weight\AreLighter;
 
+/**
+ * @coversNothing
+ */
 class C_CombiningSpecificationsTest extends TestCase
 {
     /** @test */

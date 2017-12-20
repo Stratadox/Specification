@@ -10,6 +10,9 @@ use Stratadox\Specification\Test\Integration\Boxes\Model\CollectionOfBoxes;
 use Stratadox\Specification\Test\Integration\Boxes\Specification\Colour\AreColoured;
 use Stratadox\Specification\Test\Integration\Boxes\Specification\Weight\AreHeavier;
 
+/**
+ * @coversNothing
+ */
 class A_SelectionBySpecificationTest extends TestCase
 {
     /** @test */

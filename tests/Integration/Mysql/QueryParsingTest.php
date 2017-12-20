@@ -11,6 +11,9 @@ use Stratadox\Specification\Test\Integration\Mysql\Specification\AreCheaperThan;
 use Stratadox\Specification\Test\Integration\Mysql\Specification\AreRated;
 use Stratadox\Specification\Test\Integration\Mysql\Specification\HaveType;
 
+/**
+ * @coversNothing
+ */
 class QueryParsingTest extends TestCase
 {
     /** @test */

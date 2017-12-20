@@ -9,6 +9,9 @@ use Stratadox\Specification\Test\Integration\Boxes\Model\Box;
 use Stratadox\Specification\Test\Integration\Boxes\Model\CollectionOfBoxes;
 use Stratadox\Specification\Test\Integration\Boxes\Specification\Length\HaveALength;
 
+/**
+ * @coversNothing
+ */
 class B_InvertingSpecificationsTest extends TestCase
 {
     /** @test */

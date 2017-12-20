@@ -16,28 +16,28 @@ trait Specifying
     /** @see Specifies::not() */
     public function not() : Specifies
     {
-        /** @var Satisfiable $this */
+        /** @var Specifying|Satisfiable $this */
         return $this->doesNotSatisfy($this);
     }
 
     /** @see Specifies::and() */
     public function and(Satisfiable $other) : Specifies
     {
-        /** @var Satisfiable $this */
+        /** @var Specifying|Satisfiable $this */
         return $this->satisfiesBoth($this, $other);
     }
 
     /** @see Specifies::or() */
     public function or(Satisfiable $other) : Specifies
     {
-        /** @var Satisfiable $this */
+        /** @var Specifying|Satisfiable $this */
         return $this->oneOfThese($this, $other);
     }
 
     /** @see Specifies::xor() */
     public function xor(Satisfiable $other) : Specifies
     {
-        /** @var Satisfiable $this */
+        /** @var Specifying|Satisfiable $this */
         return new XorSpecification($this, $other);
     }
 

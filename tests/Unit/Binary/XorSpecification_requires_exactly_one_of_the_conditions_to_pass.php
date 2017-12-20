@@ -9,10 +9,6 @@ use Stratadox\Specification\Binary\XorSpecification;
 use Stratadox\Specification\Test\Unit\Passed;
 use Stratadox\Specification\Test\Unit\Failed;
 
-/**
- * @covers \Stratadox\Specification\Binary\XorSpecification
- * @covers \Stratadox\Specification\Binary\BinarySpecification
- */
 class XorSpecification_requires_exactly_one_of_the_conditions_to_pass extends TestCase
 {
     /** @test */

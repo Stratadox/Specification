@@ -9,10 +9,6 @@ use Stratadox\Specification\Binary\OrSpecification;
 use Stratadox\Specification\Test\Unit\Passed;
 use Stratadox\Specification\Test\Unit\Failed;
 
-/**
- * @covers \Stratadox\Specification\Binary\OrSpecification
- * @covers \Stratadox\Specification\Binary\BinarySpecification
- */
 class OrSpecification_requires_at_least_one_condition_to_pass extends TestCase
 {
     /** @test */

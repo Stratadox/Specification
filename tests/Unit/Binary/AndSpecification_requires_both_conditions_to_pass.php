@@ -9,10 +9,6 @@ use Stratadox\Specification\Binary\AndSpecification;
 use Stratadox\Specification\Test\Unit\Passed;
 use Stratadox\Specification\Test\Unit\Failed;
 
-/**
- * @covers \Stratadox\Specification\Binary\AndSpecification
- * @covers \Stratadox\Specification\Binary\BinarySpecification
- */
 class AndSpecification_requires_both_conditions_to_pass extends TestCase
 {
     /** @test */

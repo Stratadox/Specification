@@ -9,10 +9,6 @@ use Stratadox\Specification\Test\Unit\Passed;
 use Stratadox\Specification\Test\Unit\Failed;
 use Stratadox\Specification\Unary\NotSpecification;
 
-/**
- * @covers \Stratadox\Specification\Unary\NotSpecification
- * @covers \Stratadox\Specification\Unary\UnarySpecification
- */
 class NotSpecification_inverts_the_original_condition extends TestCase
 {
     /** @test */

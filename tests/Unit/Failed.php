@@ -6,7 +6,7 @@ namespace Stratadox\Specification\Test\Unit;
 
 use Stratadox\Specification\Contract\Satisfiable;
 
-class SatisfiedByNothing implements Satisfiable
+class Failed implements Satisfiable
 {
     public function isSatisfiedBy($object) : bool
     {
